@@ -1,0 +1,59 @@
+/* LESS Document */
+
+/*http://chir.ag/projects/name-that-color/#*/
+/*Colors*/
+@h1_p: #4bffc8;
+@days: white;
+@boder: 1px solid #ee1864;
+@color:#ee1864;
+@bgcolor:#000;
+
+
+/*Font Size*/
+@bdfSize:normal 14px 'roboto', sans-serif;
+
+body {
+  color: @color;
+  font: normal 14px 'roboto', sans-serif;
+  background: @bgcolor;
+}
+h1{
+	color:@h1_p;
+	margin:150px 0 30px 0; 
+	text-align:center
+	}
+ul.countdown {
+  list-style: none;
+  margin: 75px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+ul.countdown li { display: inline-block; }
+
+ul.countdown li span {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  padding: 0 20px;
+  border-top: 1px solid @color;
+  border-bottom: 1px solid @color;
+  margin-left: -4px;
+}
+
+ul.countdown li p {
+  color: @h1_p;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.days {
+  background-color: @color;
+  padding: 0 10px;
+  color: @days;
+}
+
+.borderend { 
+border-right: 1px solid @color; 
+}
